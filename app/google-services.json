@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109569044618",
+    "project_id": "ifound-5f667",
+    "storage_bucket": "ifound-5f667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109569044618:android:f1a808b172f4d0dde4bd73",
+        "android_client_info": {
+          "package_name": "com.example.ifound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109569044618-078ihqu3odgs053s495q7gfs7cllff6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnv5GVCyeP0tFeePOIrA9V4S4VZmx9z4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109569044618-078ihqu3odgs053s495q7gfs7cllff6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

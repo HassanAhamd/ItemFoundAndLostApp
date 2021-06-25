@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/founditem"
+        android:icon="@drawable/found"
+        android:title="Found"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/black"
+        app:cnb_textColor="@color/black" />
+    <item
+        android:id="@+id/lostitem"
+        android:icon="@drawable/lost"
+        android:title="Lost"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/black"
+        app:cnb_textColor="@color/black" />
+    
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/black"
+        app:cnb_textColor="@color/black" />
+</menu>

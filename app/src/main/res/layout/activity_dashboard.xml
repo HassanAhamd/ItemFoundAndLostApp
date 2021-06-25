@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_container"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.dashboard">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/teal_700" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="right"
+        android:background="@android:color/transparent"
+
+        android:text="logout">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:padding="5dp"
+        android:foregroundGravity="left"
+        android:src="@drawable/icon">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:text="IFound" />
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/chipNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:backgroundTint="@color/white"
+        app:cnb_menuResource="@menu/nav_itm" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chipNavigation">
+
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+

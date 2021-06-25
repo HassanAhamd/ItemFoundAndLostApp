@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activities.Add_found_itemActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <EditText
+        android:id="@+id/losttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title"
+
+
+        />
+
+    <EditText
+        android:id="@+id/lostDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discription"
+
+
+        />
+
+    <EditText
+        android:id="@+id/lostTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+
+
+        />
+
+    <EditText
+        android:id="@+id/lostStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+
+
+        />
+
+    <EditText
+        android:id="@+id/lostLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+
+
+        />
+
+    <Button
+        android:id="@+id/SubmitbtnLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+
+</LinearLayout>
